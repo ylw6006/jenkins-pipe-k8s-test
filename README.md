@@ -35,7 +35,6 @@ $ cat src/main/webapp/index.jsp
 打包部署
 ```
 mvn clean package
-cp tartge
 cp target/trucks.war /usr/local/tomcat/webapps/
 /usr/local/tomcat/bin/shutdown.sh
 /usr/local/tomcat/bin/startup.sh
